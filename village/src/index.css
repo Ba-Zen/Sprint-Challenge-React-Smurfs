@@ -1,5 +1,133 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.App {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background: dodgerblue;
+  color: white;
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+}
+.nav-bar a,
+.nav-bar a:visited,
+.nav-bar h1 {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0 10px;
+}
+.smurfs {
+  padding: 10px 0;
+}
+.smurfs h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: dodgerblue;
+  margin-bottom: 40px;
+}
+.smurfs .link-container {
+  text-decoration: none;
+  color: white;
+}
+.smurfs .smurf {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid navy;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  background: dodgerblue;
+  color: white;
+}
+.smurfs .smurf a,
+.smurfs .smurf a:visited,
+.smurfs .smurf h3,
+.smurfs .smurf p {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px;
+}
+.smurfs .smurf p {
+  font-size: 2rem;
+  padding: 5px 0;
+}
+.smurf-card {
+  width: 60%;
+  margin: 20px auto 0;
+  border: 1px solid navy;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  background: dodgerblue;
+  color: white;
+}
+.smurf-card h3,
+.smurf-card p {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px;
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.smurf-card p {
+  font-size: 1.8rem;
+  padding: 5px 0;
+}
+.smurf-card button {
+  margin: 20px 30px 0;
+  width: 200px;
+  padding: 10px 0;
+  font-size: 1.8rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #8bff91;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.SmurfForm {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.SmurfForm h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: dodgerblue;
+  margin-bottom: 20px;
+}
+.SmurfForm input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  padding-left: 10px;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.SmurfForm .age-input,
+.SmurfForm .height-input {
+  width: 100px;
+}
+.SmurfForm button {
+  width: 260px;
+  margin-top: 30px;
+  padding: 10px 0;
+  background: #8bff91;
+  color: dodgerblue;
+  font-size: 1.8rem;
+  border: 1px solid black;
+  border-radius: 5px;
 }
